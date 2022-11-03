@@ -1,0 +1,79 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'finder/style.css' %}">
+</head>
+<body>
+
+    <div class='header'>
+        <div class="header-item">
+            <i class="fa-solid fa-book-bookmark fa-2xl "></i>
+        </div>
+        <div class="header-item">
+            <h1>BOOKDEALER</h1>
+        </div>
+    </div>
+    <div class="container1">
+        <div class="finderr">
+            <p class="pod1">Izde</p>
+            <form method="GET" action="">
+
+                {{form}}
+                <input type="submit" value="IZDEP KÖR" class="button">
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <!--{% for book in flip_books %}-->
+            <div class="item-book">
+                <h3 class="mag">FLIP.KZ</h3>
+                <a href="{{book.book_link}}"><img class="item_img" src="{{book.img_src}}"></a>
+                <div class="item_title">Имя книги: {{book.book_name}}</div>
+                <div class="item_sub">
+                    <p>Жанр: {{book.book_genre}}</p>
+                    <p>Цена: {{book.book_price}}</p>
+                </div>
+            </div>
+        <!--{% endfor %}-->
+         <div class="texts">
+            <h1 class="textoise">FLIP.KZ</h1>
+        </div>
+    </div>
+    <div class="container">
+
+        <!--{% for book in wild_books %}-->
+            <div class="item-book">
+                <h3 class="mag">WILDBERRIES</h3>
+                <a href="{{book.book_link}}"><img class="item_img" src="{{book.img_src}}"></a>
+                <div class="item_title">Имя книги: {{book.book_name}}</div>
+                <div class="item_sub">
+                    <p>Жанр: {{book.book_genre}}</p>
+                    <p>Цена: {{book.book_price}}</p>
+                </div>
+            </div>
+        <!--{% endfor %}-->
+        <div class="texts">
+            <h1 class="textoise">WILDBERRIES</h1>
+        </div>
+    </div>
+    <div class="container">
+        <!--{% for book in kaspi_books %}-->
+            <div class="item-book">
+                <h3 class="mag">KASPI.KZ</h3>
+                <a href="{{book.book_link}}"><img class="item_img" src="{{book.img_src}}"></a>
+                <div class="item_title">Имя книги: {{book.book_name}}</div>
+               <div class="item_sub">
+                    <p>Жанр: {{book.book_genre}}</p>
+                    <p>Цена: {{book.book_price}}</p>
+                </div>
+            </div>
+        <!--{% endfor %}-->
+        <div class="texts">
+            <h1 class="textoise">KASPI.KZ</h1>
+        </div>
+    </div>
+</body>
+</html>

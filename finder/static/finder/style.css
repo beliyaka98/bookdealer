@@ -1,0 +1,122 @@
+body {
+    background-color: #f6f6f5;
+    font-family: "helvetica", sans-serif;
+    background: linear-gradient(to right, #fdfdfd, #ebedee);
+    overflow-x: hidden;
+}
+
+
+.header{
+    padding: 15px;
+    text-align: center;
+    background: white;
+    color: #ff7348;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.mag{
+    color: #ff7348;
+}
+
+.header-item{
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.button{
+    background-color: #ff7348;
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.pod1{
+    color: #ff7348;
+    font-size: 50px;
+    font-family: "helvetica", sans-serif;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.finderr{
+    display: grid;
+    grid-template-columns: 1f 1f;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+input[type=search] {
+  font-size: 30px;
+  border: 2px solid #dee0e3;
+  border-radius: 20px;
+  background-color: white;
+  padding-left: 40px;
+  font-color: #dee0e3;
+}
+
+.footer{
+    text-align: center;
+    padding: 30px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.container1{
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.item-book{
+    margin-top: 20px;
+    width: 180px;
+    background-color: white;
+    border-radius:20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 2px #434040;
+    margin-right: 30px;
+}
+
+.item_title{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.item_sub{
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.item_img{
+    height: 170px;
+    width: 140px;
+    border-radius: 16px;
+}
+.texts{
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.textoise{
+    font-size: 300px;
+    font-weight: 900;
+    font-stretch: ultra-condensed;
+    background: linear-gradient(90deg, #00dbde, #fc00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin:0px;
+    padding 0px;
+    opacity: 40%;
+    overflow: hidden;
+}
